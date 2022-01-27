@@ -59,12 +59,12 @@ class App{
         
         const self = this;
         
-        fetch('./college.json')
-            .then(response => response.json())
-            .then(obj =>{
-                self.boardShown = '';
-                self.boardData = obj;
-            });
+        // fetch('./college.json')
+        //     .then(response => response.json())
+        //     .then(obj =>{
+        //         self.boardShown = '';
+        //         self.boardData = obj;
+        //     });
 	}
 	
     setEnvironment(){
